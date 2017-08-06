@@ -48,7 +48,7 @@ public class ContainerTransferNode extends Container
         this.lastpipe_y = 0;
         this.lastpipe_z = 0;
         this.node = node;
-        if(node instanceof TileEntityTransferNodeEnergy){}else{//fix glitch
+        if(node instanceof TileEntityTransferNodeEnergy){}else{//-glitch
         	 if (node instanceof IInventory) {
  	            this.addSlotToContainer(new Slot((IInventory)node, 0, 80, 83));
  	        }

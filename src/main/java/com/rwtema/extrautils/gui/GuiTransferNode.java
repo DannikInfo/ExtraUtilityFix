@@ -27,7 +27,7 @@ import net.minecraft.client.gui.inventory.GuiContainer;
 public class GuiTransferNode extends GuiContainer
 {
     private static final ResourceLocation texture;
-    private static final ResourceLocation textureEnergy;//fix glitch
+    private static final ResourceLocation textureEnergy;//-glitch
     TileEntityTransferNode node;
     IInventory player;
     FluidStack liquid;

@@ -98,7 +98,7 @@ public class TNHelper
         return inv instanceof IEnergyConnection && ((IEnergyConnection)inv).canConnectEnergy(forgeSide);
     }
     
-    public static boolean isEUEnergy(final TileEntity inv, final ForgeDirection forgeSide) {
+    public static boolean isEUEnergy(final TileEntity inv, final ForgeDirection forgeSide) {// add for get IC2 machine list
         return inv instanceof IEnergyStorage || inv instanceof IEnergySink;
     }
     
@@ -106,7 +106,7 @@ public class TNHelper
         return isRFEnergy(inv, forgeSide);
     }
     
-    public static boolean isIC2Energy(final TileEntity inv, final ForgeDirection forgeSide) {
+    public static boolean isIC2Energy(final TileEntity inv, final ForgeDirection forgeSide) {// add for get IC2 machine list
     	return isEUEnergy(inv, forgeSide);
     }
     

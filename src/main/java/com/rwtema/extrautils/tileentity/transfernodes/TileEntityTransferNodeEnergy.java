@@ -248,7 +248,7 @@ public class TileEntityTransferNodeEnergy extends TileEntityTransferNode impleme
 	                }
 	            }
 	        }
-	    /*if(this.isPowered()){ //add reverse convert energy
+	    /*if(this.isPowered()){ //add reverse convert energy.. NOT UNCOMENTED IT!!! IT.. IT.. IT VERY VERY VERY BUGED!!!
 	        if (this.clientele.size() > 0) {
 	            Collections.shuffle(this.clientele);
 	            final List<EnergyPosition> repeat = new ArrayList<EnergyPosition>();
