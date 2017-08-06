@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ExtraUtilities",
+  "name": "Extra Utilities Fix",
+  "description": "",
+  "version": "1.2.12",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["RWTema", "dannikinfo(fix creator)"], 
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
